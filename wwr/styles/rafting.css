@@ -62,3 +62,25 @@ h1 {
     float: right;
     width: 125px;
 }
+
+header {
+    display: grid;
+}
+
+nav {
+    display: flex;
+}
+
+.horizontal-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0;
+}
+
+.footer img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 2px;
+    height: auto;
+}
